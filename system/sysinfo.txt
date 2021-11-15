@@ -1,5 +1,5 @@
-prismOS 5 build 770
+prismOS 5 build 777
 Kernel Version: 3
 Build Revision Number: 101
-Build status: Confidential Developer Preview
-Full build string: 770.pos5.3.101.confdevpreview
+Build status: Consumer Preview
+Full build string: 777.pos5.3.101.confdevpreview
