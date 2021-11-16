@@ -38,6 +38,17 @@ input,select{vertical-align:middle}
 
  
 }
+
+#bg {
+   position: fixed;
+   top: 0;
+   left: 0;
+
+   /* Preserve aspet ratio */
+   min - width: 100 % ;
+   min - height: 100 % ;
+}
+
 a {
 color: white;
 }
