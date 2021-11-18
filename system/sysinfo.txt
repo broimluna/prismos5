@@ -2,4 +2,4 @@ prismOS 5 build 1024
 Kernel Version: 5
 Build Revision Number: 5
 Build status: Release to Consumer
-Full build string: 1020.pos5.5.1.rtc
+Full build string: 1024.pos5.5.1.rtc
