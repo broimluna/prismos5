@@ -1,5 +1,5 @@
-prismOS 5 build 1024
+prismOS 5 build 1030
 Kernel Version: 5
-Build Revision Number: 40
+Build Revision Number: 124
 Build status: Mainstream Support
-Full build string: 1024.pos5.5.40.updates
+Full build string: 1030.pos5.5.124.updates
