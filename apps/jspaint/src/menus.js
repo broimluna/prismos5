@@ -378,14 +378,8 @@ window.menus = {
 			item: "&Help Topics",
 			action: ()=> { show_help(); },
 			description: "Displays Help for the current task or command.",
-		},
-		MENU_DIVIDER,
-		{
-			item: "&About Paint",
-			action: ()=> { show_about_paint(); },
-			description: "Displays information about this application.",
-			//description: "Displays program information, version number, and copyright.",
 		}
+		
 	],
 	"E&xtras": [
 		{
