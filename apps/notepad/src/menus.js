@@ -246,16 +246,7 @@ var menus = {
 			// Windows Explorer: "Opens Help."
 			// Paint: "Displays Help for the current task or command."
 		},
-		MENU_DIVIDER,
-		{
-			item: "&About Notepad",
-			action: function(){
-				// TODO: dialog
-				window.open("https://github.com/1j01/98/tree/master/programs/notepad");
-			},
-			description: "Displays information about this application."
-			// description: "Displays program information, version number, and copyright."
-		}
+		
 	],
 };
 
