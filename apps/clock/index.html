@@ -1,9 +1,16 @@
 <style>
 #time { 
-                position:absolute;                
-                top: 8;
+                position:absolute;           
+                top:8;
                 color: white;
                 font-family: Helvetica;
+                text-align: center;
+                width: 99%;
+  }
+ .left { 
+                position:absolute;                  
+                bottom:0;                          
+                left:0;
  
             }
 </style>
@@ -16,7 +23,7 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('time').innerHTML =
-    h + ":" + m + ":" + s;
+    h + ":" + m;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
@@ -27,4 +34,4 @@ function checkTime(i) {
 
 <body onload="startTime()">
 
- <a><div id="time" class="center"></div><a>
+ <a><div id="time" class="left"></div></a>
