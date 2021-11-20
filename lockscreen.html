@@ -4,7 +4,8 @@
      <title>prismOS | Lock</title>      
      	
    </head>
- 
+     <!--<meta http-equiv="refresh" content="0;url=desktop.html" />-->
+
 
    <style>
   
@@ -26,6 +27,11 @@ h1 {
               font-family: helvetica;
 
 }
+     h2 {
+  color: white;
+              font-family: helvetica;
+font-size: 80px;
+}
 
 p {
   color: white;
@@ -39,7 +45,13 @@ p {
   width: 100%;
   text-align: center;
 }
-#bottom { 
+#left { 
+                position:absolute;                  
+                bottom:0;                          
+                left:0;
+ 
+            }
+     .left { 
                 position:absolute;                  
                 bottom:0;                          
                 left:0;
@@ -57,7 +69,7 @@ p {
                 right:0;                          
             }
 #time {
-text-align: center;
+text-align: left;
 width: 99%;
 }
 
@@ -65,13 +77,12 @@ width: 99%;
   <img src="system/images/bg.jpg" id="bg" alt="">
 
 <h1>
-    <div id="bottom">Welcome to prismOS. <br>Press enter to login.</div>
 
   </h1>
     
   <h1>
     
-  <div id="right">prismOS | Version 5</div>
+  <div id="right">Welcome to prismOS. <br>Press enter to login.</div>
 
 
 
@@ -99,7 +110,7 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('time').innerHTML =
-    h + ":" + m + ":" + s;
+    h + ":" + m;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
@@ -110,7 +121,7 @@ function checkTime(i) {
 
 <body onload="startTime()">
 
- <h1><div id="time" class="center"></div><h1>
+ <h2><div id="time" class="left"></div><h2>
   
   
 
